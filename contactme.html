@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>Address: My fictional address</p>
+    <p>Contact Number: 0316549872</p>
+    <p>Email: ash.patni13@gmail.com</p>
+    <p>github username: ashpatni20</p>
+    <hr>
+
+    <!--form is where you can create a page for functionality-->
+    <!--enctype is used to decribe the all the input in Plain Text-->
+    <form action="mailto:ash.patni13@gmail.com" method="post" enctype="texy/plain">
+        <!--LABEL is used to name a input--> 
+        <label>Your Name:</label>
+        <!--INPUT is where useer can type you text Where TYPE is the attribute of the text -->
+        <input type="text" name="youName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <!--<label>Password:</label>
+        <input type="password" name="" value=""><br>-->
+        <label>Gender:</label><br>
+        <input type="checkbox" name="gender">
+        <label>Female</label>
+        <input type="checkbox">
+        <label>Male</label>
+        <input type="checkbox">
+        <label>Others</label><br>
+        <label>Your Birth Date</label>
+        <input type="date" name="DOB"><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <label>Wanna Talk Let's SignUp Then</label><br>
+        <input type="Submit" name="" value="Submit">
+    </form>  
+</body>
+</html>
